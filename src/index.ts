@@ -19,6 +19,16 @@ import { bai17 } from "./bai17";
 import { bai18 } from "./bai18";
 import { bai19 } from "./bai19";
 import { bai20 } from "./bai20";
+import { bai21 } from "./bai21";
+import { bai22 } from "./bai22";
+import { bai23 } from "./bai23";
+import { bai24 } from "./bai24";
+import { bai25 } from "./bai25";
+import { bai26 } from "./bai26";
+import { bai27 } from "./bai27";
+import { bai28 } from "./bai28";
+import { bai29 } from "./bai29";
+import { bai30 } from "./bai30";
 
 async function runAll() {
   await bai01();
@@ -41,6 +51,16 @@ async function runAll() {
   await bai18();
   await bai19();
   await bai20();
+  await bai21();
+  await bai22();
+  await bai23();
+  await bai24();
+  await bai25();
+  await bai26();
+  await bai27();
+  await bai28();
+  await bai29();
+  await bai30();
 }
 
 runAll();
