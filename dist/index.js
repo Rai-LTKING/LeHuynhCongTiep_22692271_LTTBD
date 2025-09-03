@@ -11,6 +11,16 @@ const bai07_1 = require("./bai07");
 const bai08_1 = require("./bai08");
 const bai09_1 = require("./bai09");
 const bai10_1 = require("./bai10");
+const bai11_1 = require("./bai11");
+const bai12_1 = require("./bai12");
+const bai13_1 = require("./bai13");
+const bai14_1 = require("./bai14");
+const bai15_1 = require("./bai15");
+const bai16_1 = require("./bai16");
+const bai17_1 = require("./bai17");
+const bai18_1 = require("./bai18");
+const bai19_1 = require("./bai19");
+const bai20_1 = require("./bai20");
 async function runAll() {
     await (0, bai01_1.bai01)();
     await (0, bai02_1.bai02)();
@@ -22,5 +32,15 @@ async function runAll() {
     await (0, bai08_1.bai08)();
     await (0, bai09_1.bai09)();
     await (0, bai10_1.bai10)();
+    await (0, bai11_1.bai11)();
+    await (0, bai12_1.bai12)();
+    await (0, bai13_1.bai13)();
+    await (0, bai14_1.bai14)();
+    await (0, bai15_1.bai15)();
+    await (0, bai16_1.bai16)();
+    await (0, bai17_1.bai17)();
+    await (0, bai18_1.bai18)();
+    await (0, bai19_1.bai19)();
+    await (0, bai20_1.bai20)();
 }
 runAll();
